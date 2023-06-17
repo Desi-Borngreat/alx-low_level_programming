@@ -1,23 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - Entry point
- * Description: lower cases except q and e
- * Return: Always return 0
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char c = 'a';
+		char c;
 
-	while (c <= 'z')
-	{
-		if (c != 'q' && c != 'e')
-		{
-			putchar(c);
-		}
-		c++;
-	}
-
-	putchar('\n');
-	return (0);
-}	
+		c = 'a';
+		while
+			(c <= 'z') {
+				if ((c != 'q' && c != 'e') && c <= 'z')
+					putchar(c);
+				c++;
+			}
+		putchar('\n');
+		return (0);
+}
