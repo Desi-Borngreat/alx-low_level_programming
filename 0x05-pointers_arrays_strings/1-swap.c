@@ -1,4 +1,6 @@
-#include "main.h"
+#include <stdio.h>
+int main() {
+
 /**
  * swap_int - function swaps the values of two integers
  * @a: integer one
