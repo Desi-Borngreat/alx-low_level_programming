@@ -6,9 +6,7 @@
  * @array: array
  * @size: size of array
  * @cmp: pointer to function to be used
- * Return: Always 0 (Success)
 */
-
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int index;
@@ -30,3 +28,4 @@ int int_index(int *array, int size, int (*cmp)(int))
 	return (-1);
 
 }
+
